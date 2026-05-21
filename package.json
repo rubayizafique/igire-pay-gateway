@@ -1,0 +1,17 @@
+{
+  "name": "igire-pay-gateway",
+  "version": "1.0.0",
+  "description": "Idempotency gateway for IgirePay Technologies",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.3"
+  }
+}
